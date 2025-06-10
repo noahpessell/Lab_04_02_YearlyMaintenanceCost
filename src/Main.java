@@ -28,6 +28,6 @@ public class Main
         System.out.println("What is the dollar cost of home maintenance in winter?");
         //	INPUT winterCost
         double yearCost = springCost + summerCost + fallCost + winterCost;
-        System.out.println("The total cost of home maintenance for the year is $" + yearCost);
+        System.out.println("The cost for spring is $" + springCost + ". The cost for summer is $" + summerCost + ". The cost for fall is $" + fallCost + ". The cost for winter is $" + winterCost + ". Therefore, the total cost of home maintenance for the year is $" + yearCost + ".");
     }
 }
